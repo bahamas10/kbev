@@ -1,0 +1,26 @@
+{
+  "name": "kbev",
+  "version": "0.0.0",
+  "description": "Send keypress events to XBMC over the Event Sever API (UDP)",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./kbev.js",
+  "preferGlobal": true,
+  "bin": {
+    "kbev": "./kbev.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git://github.com/bahamas10/kbev.git",
+  "license": "MIT",
+  "keywords": [
+    "xbmc",
+    "xbox",
+    "udp"
+  ],
+  "dependencies": {
+    "xbmc-event-client": "~0.0.2",
+    "posix-getopt": "~1.0.0",
+    "latest": "~0.1.2"
+  }
+}
