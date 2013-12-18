@@ -1,7 +1,7 @@
 kbev - XBMC Keyboard Event
 ==========================
 
-![icon](icon.jpg) Send keypress events to XBMC over the Event Sever API (UDP)
+Send keypress events to XBMC over the Event Sever API (UDP)
 
 Installation
 ------------
