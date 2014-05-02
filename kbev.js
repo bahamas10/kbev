@@ -24,8 +24,8 @@ function usage() {
     'Send keypress events to XBMC over the Event Sever API (UDP)',
     '',
     '  -h, --help                    print this message and exit',
-    '  -H, --host <host>             [env XBMC_HOST] host on which to listen, defaults to ' + xec.DEFAULT_HOST,
-    '  -p, --port <port>             [env XBMC_PORT] port on which to listen, defaults to ' + xec.DEFAULT_PORT,
+    '  -H, --host <host>             [env XBMC_HOST] host to send events to, defaults to ' + xec.DEFAULT_HOST,
+    '  -p, --port <port>             [env XBMC_PORT] port to send events to, defaults to ' + xec.DEFAULT_PORT,
     '  -u, --updates                 check for available updates',
     '  -v, --verbose                 increase verbosity',
     '  -V, --version                 print the version number and exit'
